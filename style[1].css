@@ -1,0 +1,73 @@
+/* Setting the font stack for the entire webpage */
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+/* the header and footer have the same exact style so they can be grouped together */
+header, footer {
+  background-color: #0776C5;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img {
+  height: 500px;
+  align: center;
+  margin: auto;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+hr {
+  background-color: #0776C5;
+  width: 60%;
+  height: 1px;
+  margin: 0px;
+}
+
+/* Resizing my fonts using relative font sizing */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #0776C5;
+  font-size: 2.0rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p, li {
+  font-size: 1rem;
+  padding-top: 3px;
+}
+
+/* this makes sure that my bullet points are in line with the content, within the container where the text is located, not outside the container*/
+li {
+  list-style-position: inside;
+}
+
+/* using psuedo classes to format and style my links based on their state/status*/
+a:link {
+  color: #4FB4F8;
+}
+
+a:visited {
+  color: #033B63;
+}
+
+a:hover {
+  color: #D8EEFE;
+}
+
+a:active {
+  color: #C4E6FD;
+}
+
